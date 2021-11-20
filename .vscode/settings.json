@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/603952dc-4508-40fe-bf4a-e701deedb8ce/resourceGroups/Andrew/providers/Microsoft.Web/sites/RewatchablesUI",
+    "appService.deploySubpath": ""
+}
