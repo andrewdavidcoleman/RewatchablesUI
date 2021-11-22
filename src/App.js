@@ -13,10 +13,9 @@ function App() {
 
   const getAllMovies = async () => {
     try {
-      const response = await axios.get('http://localhost:7000');
+      const response = await axios.get('https://rewatchablesapi.azurewebsites.net');
       const movies = response.data.recordset
 
-      console.log(movies);
       setMovies(movies)
       
     } catch (error) {
