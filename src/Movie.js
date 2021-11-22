@@ -9,7 +9,7 @@ const Movie = ({ movie }) => {
     const upsertMovie = (movie) => {
         console.log('upsert...');
         console.log(movie)
-        axios.post('http://localhost:7000/upsert', {},
+        axios.post('https://rewatchablesapi.azurewebsites.net/upsert', {},
         {
           params: movie
         })
